@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2e;
+  padding: 15px 40px;
+  color: white;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #e0aaff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Input */
+input, select {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #6a11cb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a0fb5;
+}
+
+/* Task */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3e8ff;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Stats */
+.stats {
+  margin-top: 15px;
+  font-size: 14px;
+}
