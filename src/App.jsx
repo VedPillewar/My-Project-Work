@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div>
         <nav className="navbar">
-          <h2>💜 TaskPro</h2>
+          <h2> TaskPro</h2>
           <div>
             <Link to="/">Home</Link>
             <Link to="/dashboard">Dashboard</Link>
